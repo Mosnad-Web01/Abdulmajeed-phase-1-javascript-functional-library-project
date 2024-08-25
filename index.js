@@ -29,15 +29,6 @@ function myEach(collection, callback) {
         }
     }
 }
-
-module.exports = {
-    getValues,
-    getKeys,
-    values,
-    keys,
-    myEach
-}
-
 function myMap(collection, callback) {
     const arr = [];
     if(Array.isArray(collection)) {
